@@ -36,7 +36,7 @@ for link in links:
 #     print(value,"\n")
 
 
-
+'''
 output = ''
 blacklist = [
 	# there may be more elements you don't want, such as "style", etc.
@@ -54,7 +54,7 @@ blacklist = [
 ]
 
 
-'''
+
 count = 1
 with open("links.txt","r") as hlinks:
 	for url in hlinks:
